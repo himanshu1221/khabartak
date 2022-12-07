@@ -1,0 +1,32 @@
+.head{
+    cursor: pointer;
+}
+
+.head .logo img{
+    width: 500px;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+}
+
+header li {
+    margin-right: 30px;
+}
+header li a{
+    transition: 0.5s;
+    color: #fff;
+}
+
+header li a:hover{
+    color: crimson;
+} 
+
+.barIco{
+    font-size: 25px;
+    background: none;
+    color: #fff;
+    display: none;
+    border: none;
+}
