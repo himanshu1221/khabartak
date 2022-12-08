@@ -1,13 +1,14 @@
 import './App.css';
 import  Header  from './components/common/header/Header';
 import { Route, Routes} from 'react-router-dom'
+import { Homepages } from './components/Homepages';
 
 
 function App() {
   return (
     <>
       <Routes>
-        <Route exact path = "/" element = {<><Header/></>}></Route>
+        <Route path = "/" element = {<><Header/><Homepages/></>}></Route>
       </Routes>
     </>
   );
