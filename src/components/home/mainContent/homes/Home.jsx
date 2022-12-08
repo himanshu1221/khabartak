@@ -1,19 +1,17 @@
 import React from "react"
 import "./style.css"
 
-const Homes = () => {
+const Home = () => {
   return (
     <>
       <main>
         <div className='container'>
-          <section className='mainContent'>
-          </section>
-          <section className='sideContent'>
-          </section>
+          <section className='mainContent'></section>
+          <section className='sideContent'></section>
         </div>
       </main>
     </>
   )
 }
 
-export default Homes
+export default Home

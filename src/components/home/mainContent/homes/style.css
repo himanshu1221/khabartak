@@ -1,15 +1,15 @@
 main .container {
     display: flex;
     justify-content: space-between;
+    height: 100vh;
   }
   .mainContent {
     width: 75%;
+    background-color: cadetblue;
   }
   .sideContent {
     width: 23%;
-  }
-  .sideContent .heading h6 {
-    background-color: #000;
+    background-color: rebeccapurple;
   }
   @media screen and (max-width: 768px) {
     main .container {
