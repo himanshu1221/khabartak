@@ -24,7 +24,7 @@
 .hero .container{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(18,6vh);
+    grid-template-rows: repeat(8,6vh);
     grid-gap: 10px;
 }
 
