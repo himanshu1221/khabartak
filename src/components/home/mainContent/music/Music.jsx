@@ -12,10 +12,11 @@ const Music = () => {
         centerMode: false,
         infinite: true,
         centerPadding: "0",
-        slidesToShow: 2,
+        slidesToShow: 1,
         speed: 500,
         rows: 2,
         slidesPerRow: 1,
+        dots:true,
         responsive: [
           {
             breakpoint: 800,

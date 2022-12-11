@@ -4,6 +4,7 @@ import Popular from "../popular/Popular"
 import Ppost from "../Ppost/Ppost"
 import Life from "../life/Life"
 import Music from "../music/Music"
+import Side from "../../SideContent/Side/Side"
 
 const Home = () => {
   return (
@@ -16,7 +17,11 @@ const Home = () => {
             <Ppost/>
             <Music/>
             </section>
-          <section className='sideContent'></section>
+          <section className='sideContent'>
+            <>
+            <Side/>
+            </>
+          </section>
         </div>
       </main>
     </>
