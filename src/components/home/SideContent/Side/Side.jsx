@@ -5,6 +5,7 @@ import Tpost from '../tpost/Tpost'
 import './side.css'
 
 const Side = () => {
+  const category = ["world","travel","sports","fun","health","fashon","business","technology"]
   return (
     <>
         <Heading title = "stay conneted"/>
@@ -24,6 +25,14 @@ const Side = () => {
             <img src="./images/sidebar-banner-new.jpg" alt="" />
           </section>
           <Tpost/>
+          <section className='catgeorys'>
+            <Heading title='Catgeorys'/>
+            {category.map((val)=>{
+              return <div className="category category1">
+                <span>{val}</span>
+              </div>
+            })}
+          </section>
     </>
   )
 }
