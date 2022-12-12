@@ -18,6 +18,10 @@ const Side = () => {
             </button>
           </form>
           </section>
+
+          <section className="banner">
+            <img src="./images/sidebar-banner-new.jpg" alt="" />
+          </section>
     </>
   )
 }
