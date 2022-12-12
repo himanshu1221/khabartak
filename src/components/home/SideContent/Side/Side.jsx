@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from '../../../Heading/Heading'
 import SocialMedia from '../Social/SocialMedia'
+import Tpost from '../tpost/Tpost'
 import './side.css'
 
 const Side = () => {
@@ -22,6 +23,7 @@ const Side = () => {
           <section className="banner">
             <img src="./images/sidebar-banner-new.jpg" alt="" />
           </section>
+          <Tpost/>
     </>
   )
 }
