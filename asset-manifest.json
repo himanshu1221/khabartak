@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/khabartak/static/css/main.d87e87f2.css",
+    "main.js": "/khabartak/static/js/main.20b91a09.js",
+    "static/js/787.fb75ed2c.chunk.js": "/khabartak/static/js/787.fb75ed2c.chunk.js",
+    "static/media/slick.svg": "/khabartak/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/khabartak/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/khabartak/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/khabartak/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/khabartak/index.html",
+    "main.d87e87f2.css.map": "/khabartak/static/css/main.d87e87f2.css.map",
+    "main.20b91a09.js.map": "/khabartak/static/js/main.20b91a09.js.map",
+    "787.fb75ed2c.chunk.js.map": "/khabartak/static/js/787.fb75ed2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d87e87f2.css",
+    "static/js/main.20b91a09.js"
+  ]
+}
