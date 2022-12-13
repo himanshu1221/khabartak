@@ -2,13 +2,19 @@ import './App.css';
 import  Header  from './components/common/header/Header';
 import { Route, Routes} from 'react-router-dom'
 import { Homepages } from './components/Homepages';
+import Culture from './components/culture/Culture';
+import Footer from './components/common/footer/Footer';
+import Singlepages from './components/SinglePages/Singlepages';
+import Heading from './components/Heading/Heading';
 
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path = "/" element = {<><Header/><Homepages/></>}></Route>
+        <Route path = "/" element = {<><Homepages/></>}></Route>
+        <Route path = "/culture" element = {<><Header/><Culture/><Footer/></>}></Route> 
+
       </Routes>
     </>
   );

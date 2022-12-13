@@ -30,17 +30,29 @@ const Footer = () => {
                 <h3>CRICKET</h3>
                     <div className="item">
                         <img src="../images/hero/hero3.jpg" alt="" />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, necessitatibus.</p>
+                        <p>us promises to  give intel id to locate soldiers</p>
                     </div>
                     <div className="item">
                         <img src="../images/hero/hero1.jpg" alt="" />
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, in.</p>
+                        <p>Renewable energy dead as industry waits for  policy</p>
                     </div>
                 </div>
                 <div className="box">
                     <h3>LABELS</h3>
+                    <ul>
+                        <li><span>Boxing</span><label>(5)</label></li>
+                        <li><span>Fashion</span><label>(6)</label></li>
+                        <li><span>Health</span><label>(7)</label></li>
+                        <li><span>Nature</span><label>(8)</label></li>
+                    </ul>
                 </div>
             </div>
+        <div className="legal">
+            <div className="container flexSB">
+                <p>© all rights are reserved</p>
+                <p>made with <i className='fa fa-heart'></i> by - Himanshu Chhatwal</p>
+            </div>
+        </div>
         </footer>
     </>
   )
