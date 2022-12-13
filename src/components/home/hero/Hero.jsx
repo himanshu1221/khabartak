@@ -6,7 +6,7 @@ import './hero.css'
 
 
 const Hero = () => {
-    const [items, setitems] = useState(hero)
+    const [items,] = useState(hero)
   return (
     <>
         <section className='hero'>

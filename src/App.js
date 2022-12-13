@@ -4,8 +4,6 @@ import { Route, Routes} from 'react-router-dom'
 import { Homepages } from './components/Homepages';
 import Culture from './components/culture/Culture';
 import Footer from './components/common/footer/Footer';
-import Singlepages from './components/SinglePages/Singlepages';
-import Heading from './components/Heading/Heading';
 
 
 function App() {

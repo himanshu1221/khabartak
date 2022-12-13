@@ -34,7 +34,7 @@ const Music = () => {
         <Heading title='Music News' />
         <div className='content'>
           <Slider {...settings}>
-            {popular.filter((val)=>val.catgeory == "fun").map((val) => {
+            {popular.filter((val)=>val.catgeory === "fun").map((val) => {
               return (
                 <div className='items'>
                   <div className='box shadow flexSB'>
